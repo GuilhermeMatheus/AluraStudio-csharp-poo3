@@ -11,6 +11,8 @@ namespace ByteBank.Funcionarios
         // 0 - funcionário
         // 1 - diretor
         // 2 - designer
+        // 3 - Gerente de conta corrente
+        // 4 - Coordenador 
         // N - ...
         private int _tipo;
 
@@ -27,7 +29,7 @@ namespace ByteBank.Funcionarios
         {
             if (_tipo == 1)
                 return Salario;
-
+            
             return Salario * 0.10;
         }
     }

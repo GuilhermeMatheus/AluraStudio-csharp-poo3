@@ -24,7 +24,7 @@ namespace ByteBank
             Diretor roberta = new Diretor("454.658.148-3");
             roberta.Nome = "Roberta";
             roberta.Salario = 5000;
-
+            Console.WriteLine(roberta.CPF);
             Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
             Funcionario robertaTeste = roberta;

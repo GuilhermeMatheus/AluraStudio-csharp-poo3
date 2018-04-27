@@ -11,13 +11,17 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            Funcionario carlos = new Funcionario("434.568.190-20");
+            Funcionario carlos = new Funcionario(1);
 
             carlos.Nome = "Carlos";
+            carlos.CPF = "546.879.157-20";
             carlos.Salario = 2000;
 
             Console.WriteLine(carlos.Nome);
+            Console.WriteLine(carlos.GetBonificacao());
+
             Console.ReadLine();
+
         }
     }
 }
